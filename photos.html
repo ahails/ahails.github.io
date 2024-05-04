@@ -1,1 +1,40 @@
-photos :D
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photography - Aaron Hails</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="photos.css">
+    <script src="photos.js"></script>
+</head>
+<body>
+    <div class="loading">
+        <span>Loading, please wait...</span>
+    </div>
+    <div id="navbar">
+        <div id="navbar-logo">
+            <a class="navbar-logo-container" href="index.html"><img class="navbar-logo-image" src="logo.png" alt="logo"></a>
+        </div>
+        <ul id="navbar-items">
+            <li class="navbar-item"><a href="index.html">Home</a></li>
+            <li class="navbar-item current-navbar-item"><a href="photos.html">Photos</a></li>
+            <li class="navbar-item"><a href="code.html">Code</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <div class="title-container">
+            <span class="title">PHOTOGRAPHY</span>
+            <span class="section-indicator-down">Photos</span>
+        </div>
+        <div class="photo-container">
+            <span class="section-indicator-up">Header</span>
+            <div class="photo-scroller"></div>
+            <span class="section-indicator-down">Artist Statement</span>
+        </div>
+        <div class="statement-container">
+            <span class="section-indicator-up">Photos</span>
+            <span id="artist-statement">blah blah blah</span>
+        </div>
+    </div>
+</body>
+</html>
